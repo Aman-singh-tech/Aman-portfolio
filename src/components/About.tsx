@@ -23,12 +23,12 @@ export default function About() {
           transition={{ delay: 0.05 }}
           className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl"
         >
-          I&apos;m an <span className="neon-text">AI-driven full-stack developer</span> who
+          I&apos;m an <span className="gradient-neon-text">AI-driven full-stack developer</span> who
           combines modern engineering practices with AI-assisted workflows to ship{" "}
-          <span className="neon-text">production-grade web applications</span> faster —
+          <span className="gradient-neon-text">production-grade web applications</span> faster —
           without compromising on code quality or stability. From real-time dashboards to
           payroll and attendance systems, I focus on building solutions that{" "}
-          <span className="neon-text">stay reliable long after launch</span>.
+          <span className="gradient-neon-text">stay reliable long after launch</span>.
         </motion.h2>
 
         <motion.div

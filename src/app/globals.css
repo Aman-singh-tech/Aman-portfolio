@@ -53,30 +53,6 @@ body {
   border-radius: 999px;
 }
 
-@keyframes neon-float {
-  0%,
-  100% {
-    transform: translateY(0);
-    text-shadow:
-      0 0 6px rgba(110, 231, 183, 0.65),
-      0 0 16px rgba(110, 231, 183, 0.4),
-      0 0 28px rgba(52, 211, 153, 0.3);
-  }
-  50% {
-    transform: translateY(-3px);
-    text-shadow:
-      0 0 10px rgba(110, 231, 183, 0.9),
-      0 0 24px rgba(110, 231, 183, 0.6),
-      0 0 40px rgba(52, 211, 153, 0.5);
-  }
-}
-
-.neon-text {
-  display: inline-block;
-  color: #eefdf6;
-  animation: neon-float 3.2s ease-in-out infinite;
-}
-
 @keyframes gradient-glow-pulse {
   0%,
   100% {
