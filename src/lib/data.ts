@@ -85,7 +85,7 @@ export const services = [
 
 export const projects = [
   {
-    title: "PunchCloud",
+    title: "SOL INDIA",
     description:
       "A production workforce management platform built for a live client — automating attendance, production tracking, and payroll. Integrates a biometric face-recognition terminal over the ADMS hardware protocol and runs an automated payroll engine with RBAC and PDF payslips, deployed on a cloud VM with CI/CD.",
     tags: ["NestJS", "Prisma", "PostgreSQL", "React"],
