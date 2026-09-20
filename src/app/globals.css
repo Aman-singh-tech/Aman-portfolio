@@ -76,3 +76,26 @@ body {
   color: #eefdf6;
   animation: neon-float 3.2s ease-in-out infinite;
 }
+
+@keyframes gradient-glow-pulse {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 8px rgba(52, 211, 153, 0.5))
+      drop-shadow(0 0 18px rgba(56, 189, 248, 0.35))
+      drop-shadow(0 0 30px rgba(139, 92, 246, 0.25));
+  }
+  50% {
+    filter: drop-shadow(0 0 14px rgba(52, 211, 153, 0.8))
+      drop-shadow(0 0 28px rgba(56, 189, 248, 0.55))
+      drop-shadow(0 0 44px rgba(139, 92, 246, 0.4));
+  }
+}
+
+.gradient-neon-text {
+  display: inline-block;
+  background: linear-gradient(90deg, #34d399, #38bdf8, #8b5cf6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient-glow-pulse 3s ease-in-out infinite;
+}

@@ -26,7 +26,7 @@ export default function Hero() {
             className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl md:text-6xl"
           >
             {profile.role} building{" "}
-            <span className="text-accent">clean, stable</span> web solutions.
+            <span className="gradient-neon-text">clean, stable</span> web solutions.
           </motion.h1>
 
           <motion.p
