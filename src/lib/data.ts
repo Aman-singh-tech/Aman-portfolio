@@ -77,9 +77,9 @@ export const services = [
       "Reliable backend systems, REST/GraphQL APIs, and database design that scale with your product.",
   },
   {
-    title: "Stability & Performance Audits",
+    title: "AI-Powered Feature Integration",
     description:
-      "Reviewing an existing app for bugs, slow queries, and fragile code paths — then fixing them.",
+      "Adding LLM-driven features to your product — smart search, chatbots, content generation — using the Gemini API and prompt-engineered workflows.",
   },
 ];
 
