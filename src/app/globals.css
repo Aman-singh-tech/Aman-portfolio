@@ -39,19 +39,16 @@ body {
   color: #08090a;
 }
 
-@keyframes scroll-vertical {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-50%);
-  }
+.skills-grid {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
 }
 
-.skills-track {
-  animation: scroll-vertical 22s linear infinite;
+.skills-grid::-webkit-scrollbar {
+  width: 6px;
 }
 
-.skills-marquee:hover .skills-track {
-  animation-play-state: paused;
+.skills-grid::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 999px;
 }

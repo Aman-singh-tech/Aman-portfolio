@@ -22,24 +22,42 @@ export const stats = [
   { label: "Happy Clients", value: "3+" },
 ];
 
-// "slug" maps to a Simple Icons (simpleicons.org) logo served via cdn.simpleicons.org.
-export const skills = [
+// "slug" maps to a real Simple Icons (simpleicons.org) logo served via cdn.simpleicons.org.
+// "icon" is a lucide-react icon name used as a fallback for concepts/patterns that have no brand logo.
+export const skills: { name: string; slug?: string; icon?: string }[] = [
+  { name: "JavaScript (ES6+)", slug: "javascript" },
+  { name: "HTML5", slug: "html5" },
+  { name: "CSS3", slug: "css" },
+  { name: "Gemini API", slug: "googlegemini" },
+  { name: "Prompt Engineering", icon: "Sparkles" },
+  { name: "LLM Integration", icon: "Brain" },
+  { name: "React.js", slug: "react" },
   { name: "Next.js", slug: "nextdotjs" },
-  { name: "React", slug: "react" },
-  { name: "TypeScript", slug: "typescript" },
   { name: "Tailwind CSS", slug: "tailwindcss" },
   { name: "Node.js", slug: "nodedotjs" },
-  { name: "Express", slug: "express" },
-  { name: "PostgreSQL", slug: "postgresql" },
+  { name: "Express.js", slug: "express" },
+  { name: "NestJS", slug: "nestjs" },
+  { name: "RESTful APIs", icon: "Webhook" },
+  { name: "MVC Architecture", icon: "LayoutGrid" },
   { name: "MongoDB", slug: "mongodb" },
-  { name: "Docker", slug: "docker" },
+  { name: "Mongoose", slug: "mongoose" },
+  { name: "MySQL", slug: "mysql" },
+  { name: "PostgreSQL", slug: "postgresql" },
+  { name: "Prisma", slug: "prisma" },
+  { name: "JWT", slug: "jsonwebtokens" },
+  { name: "HTTP-only Cookies", icon: "Cookie" },
+  { name: "bcrypt", icon: "KeyRound" },
+  { name: "RBAC", icon: "ShieldCheck" },
   { name: "Git", slug: "git" },
-  { name: "Redis", slug: "redis" },
+  { name: "GitHub", slug: "github" },
+  { name: "Docker", slug: "docker" },
+  { name: "Postman", slug: "postman" },
+  { name: "Cloudinary", slug: "cloudinary" },
+  { name: "Stripe", slug: "stripe" },
   { name: "Vercel", slug: "vercel" },
-  { name: "Hugging Face", slug: "huggingface" },
-  { name: "Anthropic Claude", slug: "anthropic" },
-  { name: "GitHub Copilot", slug: "githubcopilot" },
-  { name: "LangChain", slug: "langchain" },
+  { name: "Render", slug: "render" },
+  { name: "GitHub Actions", slug: "githubactions" },
+  { name: "Jest", slug: "jest" },
 ];
 
 export const services = [
