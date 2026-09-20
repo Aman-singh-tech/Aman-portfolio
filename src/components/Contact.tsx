@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Loader2, Mail, Send } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "./icons";
+import { GithubIcon, LinkedinIcon, WhatsappIcon } from "./icons";
 import { profile } from "@/lib/data";
 
 type Status = "idle" | "sending" | "success" | "error";
@@ -141,6 +141,16 @@ export default function Contact() {
           >
             <Mail size={16} />
             or email me directly at {profile.email}
+          </a>
+
+          <a
+            href={profile.whatsapp}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm text-muted transition-colors hover:text-foreground"
+          >
+            <WhatsappIcon size={16} />
+            Contact me on WhatsApp
           </a>
 
           <div className="flex gap-6 text-muted">

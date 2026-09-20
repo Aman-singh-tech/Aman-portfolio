@@ -7,6 +7,7 @@ export const profile = {
   bio: "I'm an AI-driven full-stack developer who combines modern engineering practices with AI-assisted workflows to ship production-grade web applications faster — without compromising on code quality or stability. From real-time dashboards to payroll and attendance systems, I focus on building solutions that stay reliable long after launch.",
   email: "bablooaman.p2@gmail.com",
   phone: "+91 8920346288",
+  whatsapp: "https://wa.me/918920346288",
   location: "India",
   resumeUrl: "/resume.pdf",
   social: {
