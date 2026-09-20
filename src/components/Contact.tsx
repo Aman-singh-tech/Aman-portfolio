@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Loader2, Mail, Send } from "lucide-react";
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "./icons";
+import { GithubIcon, LinkedinIcon } from "./icons";
 import { profile } from "@/lib/data";
 
 type Status = "idle" | "sending" | "success" | "error";
@@ -157,13 +157,6 @@ export default function Contact() {
               className="transition-colors hover:text-foreground"
             >
               <LinkedinIcon size={20} />
-            </a>
-            <a
-              href={profile.social.twitter}
-              aria-label="Twitter"
-              className="transition-colors hover:text-foreground"
-            >
-              <TwitterIcon size={20} />
             </a>
           </div>
         </motion.div>

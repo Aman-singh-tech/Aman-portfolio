@@ -12,7 +12,6 @@ export const profile = {
   social: {
     github: "https://github.com/Aman-singh-tech",
     linkedin: "https://www.linkedin.com/in/aman-singh-892034as",
-    twitter: "https://twitter.com/yourusername",
   },
 };
 

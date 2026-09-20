@@ -31,18 +31,3 @@ export function LinkedinIcon({ size = 20, className }: IconProps) {
     </svg>
   );
 }
-
-export function TwitterIcon({ size = 20, className }: IconProps) {
-  return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      aria-hidden="true"
-    >
-      <path d="M18.9 1.5h3.68l-8.04 9.19L24 22.5h-7.4l-5.8-7.58-6.64 7.58H.47l8.6-9.83L0 1.5h7.59l5.24 6.93 6.07-6.93Zm-1.29 18.81h2.04L6.5 3.58H4.31l13.3 16.73Z" />
-    </svg>
-  );
-}
