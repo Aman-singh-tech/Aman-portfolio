@@ -16,7 +16,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="mb-4 font-mono text-sm text-accent"
           >
-            Hi, I&apos;m {profile.name.split(" ")[0]} 👋
+            Hi, I&apos;m {profile.name} 👋
           </motion.p>
 
           <motion.h1
