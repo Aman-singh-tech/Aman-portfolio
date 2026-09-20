@@ -23,12 +23,17 @@ export const stats = [
 ];
 
 // "slug" maps to a real Simple Icons (simpleicons.org) logo served via cdn.simpleicons.org.
+// "logoUrl" is a direct link to a brand's own logo, used when Simple Icons doesn't have it yet.
 // "icon" is a lucide-react icon name used as a fallback for concepts/patterns that have no brand logo.
-export const skills: { name: string; slug?: string; icon?: string }[] = [
+export const skills: { name: string; slug?: string; logoUrl?: string; icon?: string }[] = [
   { name: "JavaScript (ES6+)", slug: "javascript" },
   { name: "HTML5", slug: "html5" },
   { name: "CSS3", slug: "css" },
   { name: "Gemini API", slug: "googlegemini" },
+  { name: "Claude", slug: "claude" },
+  { name: "Cursor", slug: "cursor" },
+  { name: "Lovable", logoUrl: "https://lovable.dev/favicon.ico" },
+  { name: "Figma", slug: "figma" },
   { name: "Prompt Engineering", icon: "Sparkles" },
   { name: "LLM Integration", icon: "Brain" },
   { name: "React.js", slug: "react" },

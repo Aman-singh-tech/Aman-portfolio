@@ -75,6 +75,16 @@ export default function Skills() {
                         height={24}
                         loading="lazy"
                       />
+                    ) : skill.logoUrl ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={skill.logoUrl}
+                        alt={skill.name}
+                        width={24}
+                        height={24}
+                        loading="lazy"
+                        className="rounded-md"
+                      />
                     ) : Icon ? (
                       <Icon size={22} className="text-[#08090a]" />
                     ) : null}
