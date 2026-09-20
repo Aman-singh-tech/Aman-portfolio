@@ -87,26 +87,26 @@ export const projects = [
   {
     title: "PunchCloud",
     description:
-      "A production payroll and attendance management system — real-time clock-ins, shift rules, and automated payroll calculations for a live workforce.",
-    tags: ["Next.js", "Node.js", "PostgreSQL"],
+      "A production workforce management platform built for a live client — automating attendance, production tracking, and payroll. Integrates a biometric face-recognition terminal over the ADMS hardware protocol and runs an automated payroll engine with RBAC and PDF payslips, deployed on a cloud VM with CI/CD.",
+    tags: ["NestJS", "Prisma", "PostgreSQL", "React"],
     link: "#",
     github: "#",
   },
   {
-    title: "Project Two",
+    title: "SkillSphere",
     description:
-      "Short description of a second project — what problem it solved and the impact it had.",
-    tags: ["React", "Express", "MongoDB"],
+      "A full-stack hyperlocal freelance marketplace connecting clients with local freelancers — verified professional discovery and portfolios, plus an AI-powered job matching engine that recommends freelancers based on project requirements. Includes milestone-based secure payments and a real-time reputation scoring system.",
+    tags: ["React", "Node.js", "MongoDB"],
     link: "#",
-    github: "#",
+    github: "https://github.com/Aman-singh-tech/Skillsphere-Intelligent-hyperlocal-freelance-ecosystem",
   },
   {
-    title: "Project Three",
+    title: "ShadowLearn",
     description:
-      "Short description of a third project — what problem it solved and the impact it had.",
-    tags: ["Next.js", "TypeScript", "Tailwind"],
+      "A knowledge-sharing platform for recording team workflows and structured problem-solving logs, built and tested with 20 users. Secured with JWT authentication and RBAC-protected routes, with optimized REST APIs for video upload/retrieval hitting sub-300ms response times via Cloudinary's CDN.",
+    tags: ["MERN Stack", "JWT", "Cloudinary"],
     link: "#",
-    github: "#",
+    github: "https://github.com/Aman-singh-tech/Shadow-learn-AI-powered-platform",
   },
 ];
 
