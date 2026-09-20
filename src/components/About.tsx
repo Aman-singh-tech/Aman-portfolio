@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { profile, stats } from "@/lib/data";
+import { stats } from "@/lib/data";
 
 export default function About() {
   return (
@@ -23,7 +23,12 @@ export default function About() {
           transition={{ delay: 0.05 }}
           className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl"
         >
-          {profile.bio}
+          I&apos;m an <span className="neon-text">AI-driven full-stack developer</span> who
+          combines modern engineering practices with AI-assisted workflows to ship{" "}
+          <span className="neon-text">production-grade web applications</span> faster —
+          without compromising on code quality or stability. From real-time dashboards to
+          payroll and attendance systems, I focus on building solutions that{" "}
+          <span className="neon-text">stay reliable long after launch</span>.
         </motion.h2>
 
         <motion.div
