@@ -2,39 +2,44 @@
 
 export const profile = {
   name: "Aman Singh",
-  role: "Full-Stack Developer",
-  tagline: "I build clean, stable web apps that clients can actually rely on.",
-  bio: "I'm a full-stack developer focused on shipping production-grade web applications — from real-time dashboards to payroll and attendance systems. I care about code that stays stable after launch, not just code that demos well.",
-  email: "your.email@example.com",
-  phone: "+91 00000 00000",
+  role: "AI Driven Full-Stack Developer",
+  tagline: "I build clean, stable web apps faster — powered by AI-driven development, without cutting corners on quality.",
+  bio: "I'm an AI-driven full-stack developer who combines modern engineering practices with AI-assisted workflows to ship production-grade web applications faster — without compromising on code quality or stability. From real-time dashboards to payroll and attendance systems, I focus on building solutions that stay reliable long after launch.",
+  email: "bablooaman.p2@gmail.com",
+  phone: "+91 8920346288",
   location: "India",
   resumeUrl: "/resume.pdf",
   social: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
+    github: "https://github.com/Aman-singh-tech",
+    linkedin: "https://www.linkedin.com/in/aman-singh-892034as",
     twitter: "https://twitter.com/yourusername",
   },
 };
 
 export const stats = [
-  { label: "Years Building", value: "3+" },
-  { label: "Projects Delivered", value: "15+" },
-  { label: "Happy Clients", value: "10+" },
+  { label: "Years Building", value: "1+" },
+  { label: "Projects Delivered", value: "3+" },
+  { label: "Happy Clients", value: "3+" },
 ];
 
+// "slug" maps to a Simple Icons (simpleicons.org) logo served via cdn.simpleicons.org.
 export const skills = [
-  {
-    category: "Frontend",
-    items: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-  },
-  {
-    category: "Backend",
-    items: ["Node.js", "Express", "PostgreSQL", "MongoDB"],
-  },
-  {
-    category: "Tools & DevOps",
-    items: ["Git", "Docker", "AWS", "Vercel"],
-  },
+  { name: "Next.js", slug: "nextdotjs" },
+  { name: "React", slug: "react" },
+  { name: "TypeScript", slug: "typescript" },
+  { name: "Tailwind CSS", slug: "tailwindcss" },
+  { name: "Node.js", slug: "nodedotjs" },
+  { name: "Express", slug: "express" },
+  { name: "PostgreSQL", slug: "postgresql" },
+  { name: "MongoDB", slug: "mongodb" },
+  { name: "Docker", slug: "docker" },
+  { name: "Git", slug: "git" },
+  { name: "Redis", slug: "redis" },
+  { name: "Vercel", slug: "vercel" },
+  { name: "Hugging Face", slug: "huggingface" },
+  { name: "Anthropic Claude", slug: "anthropic" },
+  { name: "GitHub Copilot", slug: "githubcopilot" },
+  { name: "LangChain", slug: "langchain" },
 ];
 
 export const services = [
