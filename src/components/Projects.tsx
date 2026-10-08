@@ -50,10 +50,12 @@ export default function Projects() {
                   </a>
                   <a
                     href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     aria-label={`${project.title} live link`}
                     className="transition-colors hover:text-foreground"
                   >
-                    <ArrowUpRight size={18} />
+                    {project.link !== "#" && <span className="text-sm">Live link</span>}<ArrowUpRight size={18} />
                   </a>
                 </div>
               </div>

@@ -105,7 +105,7 @@ export const projects = [
     description:
       "A real-time collaboration platform that brings project planning, shared documents, team chat, and file management into one workspace. Features live Kanban updates, collaborative editing with version history, role-based access control, and productivity analytics to help teams coordinate work and track progress.",
     tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO"],
-    link: "#",
+    link: "https://collabsphere-sandhya-web.onrender.com",
     github: "https://github.com/Aman-singh-tech/COLLABSPHERE-Enterprise-Real-Time-Collaborative-Workspace-Project-Intelligence-Platform",
   },
 ];
