@@ -97,7 +97,7 @@ export const projects = [
     description:
       "A real estate platform that helps buyers and tenants discover properties, explore detailed listings, and connect with owners. Combines location and budget filters, property galleries, listing submissions, and an owner dashboard in a responsive interface designed for straightforward property discovery.",
     tags: ["Next.js", "React", "Tailwind CSS", "Prisma"],
-    link: "#",
+    link: "https://www.brickbaaz.com/",
     github: "#",
   },
   {
