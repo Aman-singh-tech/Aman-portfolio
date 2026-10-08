@@ -101,12 +101,12 @@ export const projects = [
     github: "https://github.com/Aman-singh-tech/Skillsphere-Intelligent-hyperlocal-freelance-ecosystem",
   },
   {
-    title: "ShadowLearn",
+    title: "CollabSphere",
     description:
-      "A knowledge-sharing platform for recording team workflows and structured problem-solving logs, built and tested with 20 users. Secured with JWT authentication and RBAC-protected routes, with optimized REST APIs for video upload/retrieval hitting sub-300ms response times via Cloudinary's CDN.",
-    tags: ["MERN Stack", "JWT", "Cloudinary"],
+      "A real-time collaboration platform that brings project planning, shared documents, team chat, and file management into one workspace. Features live Kanban updates, collaborative editing with version history, role-based access control, and productivity analytics to help teams coordinate work and track progress.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO"],
     link: "#",
-    github: "https://github.com/Aman-singh-tech/Shadow-learn-AI-powered-platform",
+    github: "https://github.com/Aman-singh-tech/COLLABSPHERE-Enterprise-Real-Time-Collaborative-Workspace-Project-Intelligence-Platform",
   },
 ];
 
