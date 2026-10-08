@@ -93,12 +93,12 @@ export const projects = [
     github: "#",
   },
   {
-    title: "SkillSphere",
+    title: "BRICKBAAZ",
     description:
-      "A full-stack hyperlocal freelance marketplace connecting clients with local freelancers — verified professional discovery and portfolios, plus an AI-powered job matching engine that recommends freelancers based on project requirements. Includes milestone-based secure payments and a real-time reputation scoring system.",
-    tags: ["React", "Node.js", "MongoDB"],
+      "A real estate platform that helps buyers and tenants discover properties, explore detailed listings, and connect with owners. Combines location and budget filters, property galleries, listing submissions, and an owner dashboard in a responsive interface designed for straightforward property discovery.",
+    tags: ["Next.js", "React", "Tailwind CSS", "Prisma"],
     link: "#",
-    github: "https://github.com/Aman-singh-tech/Skillsphere-Intelligent-hyperlocal-freelance-ecosystem",
+    github: "#",
   },
   {
     title: "CollabSphere",
@@ -107,6 +107,14 @@ export const projects = [
     tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO"],
     link: "https://collabsphere-sandhya-web.onrender.com",
     github: "https://github.com/Aman-singh-tech/COLLABSPHERE-Enterprise-Real-Time-Collaborative-Workspace-Project-Intelligence-Platform",
+  },
+  {
+    title: "SkillSphere",
+    description:
+      "A full-stack hyperlocal freelance marketplace connecting clients with local freelancers — verified professional discovery and portfolios, plus an AI-powered job matching engine that recommends freelancers based on project requirements. Includes milestone-based secure payments and a real-time reputation scoring system.",
+    tags: ["React", "Node.js", "MongoDB"],
+    link: "#",
+    github: "https://github.com/Aman-singh-tech/Skillsphere-Intelligent-hyperlocal-freelance-ecosystem",
   },
 ];
 
