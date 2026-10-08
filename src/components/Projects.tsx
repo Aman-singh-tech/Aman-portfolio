@@ -41,6 +41,7 @@ export default function Projects() {
               <div className="flex items-start justify-between">
                 <h3 className="text-lg font-semibold">{project.title}</h3>
                 <div className="flex gap-3 text-muted">
+                  {project.github !== "#" && (
                   <a
                     href={project.github}
                     aria-label={`${project.title} GitHub repository`}
@@ -48,15 +49,19 @@ export default function Projects() {
                   >
                     <GithubIcon size={18} />
                   </a>
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`${project.title} live link`}
-                    className="transition-colors hover:text-foreground"
-                  >
-                    {project.link !== "#" && <span className="text-sm">Live link</span>}<ArrowUpRight size={18} />
-                  </a>
+                  )}
+                  {project.link !== "#" && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${project.title} live link`}
+                      className="inline-flex items-center gap-1 transition-colors hover:text-foreground"
+                    >
+                      <span className="text-sm">Live link</span>
+                      <ArrowUpRight size={18} />
+                    </a>
+                  )}
                 </div>
               </div>
 
